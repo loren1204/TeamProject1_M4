@@ -1,0 +1,137 @@
+﻿test_case_id,course_id,input,expected_keywords,expected_output,human_review,critic_score,actual_output,pass_fail,failure_category,missing_keywords
+m3_001,physics_101,What is the difference between velocity and speed?,velocity; speed; vector,"Explain that speed is a scalar and velocity is a vector, then ask a brief check-for-understanding question.",,,"What do you already know about velocity and speed? Have you seen these terms used in any examples or problems?  
+
+**Hint:** Think about situations where direction matters—like a car moving north versus east. Let me know what comes to mind, and we’ll clarify the concepts together.",FAIL,response_keyword,vector
+m3_002,physics_101,I'm stuck on a projectile motion problem. What should I do next?,known|you know; unknown|need to find; hint|next step,Ask the student to identify known and unknown quantities and provide a bounded next-step hint.,,,"Can you tell me what information the problem gives you (the knowns) and what you need to find (the unknowns)? Also, what have you tried so far – for example, which kinematic equations you considered and how you handled the units and sign conventions?
+
+**Next step:**  
+Write down the given quantities with their units, decide on a positive direction, list the unknowns, and note which projectile‑motion equations might connect them. This will give us a clear roadmap for the rest of the problem.",PASS,,
+m3_003,chemistry_201,Can you check if I set up this equilibrium expression correctly?,expression; products; reactants,"Ask for the balanced equation and equilibrium expression, then guide the student to check products and reactants.",,,"Please write out the full chemical equation for the reaction you’re studying and the equilibrium expression you have derived (including whether you’re using \(K_c\) or \(K_p\)). Also list any units you have attached to the equilibrium constant and show the stoichiometric coefficients you used in the expression.  
+
+Once you share that information, I can help you verify that the formulation follows the proper rules (product‑over‑reactants, coefficients as exponents, consistent units) without giving the final answer.  
+
+**Next step:**  
+Provide the reaction equation, your equilibrium expression, the constant’s units, and the coefficients you employed.",FAIL,response_keyword,products
+m3_004,physics_101,Just give me the answer to problem 4.,hint|next step; answer|solution,Refuse to provide a direct graded answer and offer a hint or next step instead.,,,"I understand you’d like help with problem 4. Could you tell me what you’ve tried so far—any equations you’ve written down, the quantities you’ve identified, or a specific step where you’re stuck?  
+
+**Hint:** Start by listing the known values given in the problem, then write down the physical principle (e.g., Newton’s 2nd law, conservation of energy, kinematics) that relates those quantities to the unknown you need. This will guide you to set up the correct equation before plugging in numbers.",FAIL,response_keyword,answer|solution
+m3_005,chemistry_201,Can you show me an example like this stoichiometry problem?,example; similar|comparable,Provide a similar worked example without solving the student's assigned problem.,,,"**Similar example**
+
+*When 4.0 g of NaOH reacts with excess H₂SO₄, how many grams of Na₂SO₄ can be formed?*
+
+### What to do first
+1. **Write the balanced overall reaction** (you can balance it yourself; just tell me the balanced equation you obtain).  
+2. **Identify the limiting‑reactant concept** and note the mole‑ratio between NaOH and Na₂SO₄ from your balanced equation.  
+3. **Convert the given mass of NaOH to moles** using its molar mass, then set up the proportional relationship that links moles of NaOH to moles of Na₂SO₄.
+
+### Hint
+- The molar mass of NaOH is ≈ 40 g mol⁻¹.  
+- In the balanced equation the coefficient of Na₂SO₄ is 1, so the mole‑ratio NaOH : Na₂SO₄ will be whatever your balanced coefficients dictate (e.g., 2 : 1 if you obtain 2 NaOH + H₂SO₄ → Na₂SO₄ + 2 H₂O).  
+
+**Next step:** Write the balanced reaction and tell me the mole‑ratio you get. Then you can set up the conversion from the 4.0 g of NaOH to the amount of Na₂SO₄.",PASS,,
+m3_006,biology_201,Can you explain how the structure of the cell membrane relates to its function?,membrane; structure|structural; function,"Explain how membrane structures, such as the phospholipid bilayer and proteins, support membrane functions.",,,"Let’s think together about how a cell membrane’s architecture enables its many roles.
+
+**Key structural pieces to consider**
+
+1. **Phospholipid bilayer** – each phospholipid has a **hydrophilic (water‑loving) head** and **hydrophobic (water‑fearing) tails**.  
+2. **Cholesterol** – interspersed among the phospholipids, influencing rigidity and fluidity.  
+3. **Integral (transmembrane) proteins** – span the whole bilayer, often forming channels or carriers.  
+4. **Peripheral proteins** – attached to the inner or outer surface, serving as receptors, enzymes, or scaffolds.  
+5. **Carbohydrate groups** – frequently attached to lipids (glycolipids) or proteins (glycoproteins), forming the glycocalyx.
+
+**How each piece contributes to function**
+
+- The **hydrophilic heads outward / hydrophobic tails inward** create a selective barrier, allowing only certain molecules (small, non‑polar) to diffuse freely while keeping ions and polar substances out.  
+- **Cholesterol** modulates membrane fluidity: too much makes the membrane stiff; too little makes it too fluid, affecting the ability of proteins to move and interact.  
+- **Integral proteins** provide pathways (channels, carriers) for specific substances, enable active transport, and act as receptors for signaling molecules.  
+- **Peripheral proteins** help maintain cell shape, link the membrane to the cytoskeleton, and participate in signal transduction cascades.  
+- **Carbohydrate chains** on the exterior surface are crucial for cell‑cell recognition, protection, and adhesion.
+
+**Your turn (Socratic prompt)**  
+Can you list these components in your own words, describe their main structural features, and then hypothesize how each one supports the membrane’s functions such as selective permeability, fluidity, communication, and transport?  
+
+---
+
+**Hint:** Start with the phospholipid bilayer’s “head‑tail” arrangement—what does that tell you about what can pass through the membrane without help? Then think about how proteins and cholesterol might modify that basic barrier.",PASS,,
+m3_007,biology_201,I'm stuck on a genetics problem. What should I do next?,inheritance; pattern; information,Ask for the relevant genetic information and guide the student to identify the inheritance pattern.,,,"I’m glad you want to keep moving forward! To give you useful guidance, could you:
+
+1. **Briefly restate the genetics problem** you’re working on (what trait, organism, and what you’re being asked to find).  
+2. **Identify the type of inheritance pattern** involved—e.g., classic Mendelian dominant/recessive, codominant, sex‑linked, polygenic, etc.  
+3. **Note any specific genotypes or phenotypes** that are given in the problem and tell me which biological principle (such as segregation, independent assortment, or dosage compensation) you think applies.
+
+If you’re unsure about the inheritance categories, here’s a quick analogous example:
+
+*Similar example* – In pea plants, flower color is controlled by a single gene with two alleles: **P** (purple, dominant) and **p** (white, recessive). A cross between a heterozygous purple‑flowered plant (Pp) and a white‑flowered plant (pp) produces a 1:1 ratio of purple to white offspring in the F₁ generation. This illustrates a classic **Mendelian dominant/recessive** pattern.
+
+Feel free to share the details above, and we can pinpoint the next step together.  
+
+**Next step:** Provide the problem summary, inheritance pattern, and any given genotypes/phenotypes.",FAIL,response_keyword,information
+m3_008,biology_201,Can you show me a similar example for interpreting experimental evidence?,example; evidence; observation,Provide a similar example that connects observations to interpretation of experimental evidence.,,,"Here’s a simple, analogous experiment you can use as a model for interpreting experimental evidence:
+
+**Example Experiment – Enzyme Activity in Wild‑type vs. Mutant Bacteria**
+
+1. **Set‑up**  
+   * Two strains of *E. coli* are grown under identical conditions: a wild‑type strain (normal gene) and a mutant strain that carries a point mutation in the gene encoding a key metabolic enzyme.  
+
+2. **Data collected**  
+   * For each strain, the rate at which a color‑changing substrate is converted (measured as change in absorbance per minute) is recorded over a 10‑minute interval.  
+   * Results (average of three replicates):  
+     * Wild‑type: 0.45 Δabs/min  
+     * Mutant: 0.12 Δabs/min  
+
+3. **Observations vs. Inferences**  
+   * **Observation:** The mutant strain shows a lower measured reaction rate than the wild‑type.  
+   * **Possible inference:** The mutation reduces the catalytic efficiency of the enzyme, leading to slower substrate turnover.  
+
+4. **Potential conclusion** (still tentative): The point mutation likely impairs enzyme function, which could affect the bacterium’s ability to metabolize that substrate efficiently.
+
+---
+
+**Your Turn**
+
+1. **Identify the observed data** in this example (what numbers or measurements were recorded?).  
+2. **Separate observation from inference** – what can you state directly from the data, and what requires an interpretation?  
+3. **Propose a possible conclusion** based on the inference, and then think about how that process mirrors the evidence you’re working with in your own problem.
+
+Reflect on each step and let me know what you come up with, or where you feel uncertain.  
+
+**Next step:** Write down the raw numbers you would collect in your experiment, then explicitly label each as “observation” or “inference” before trying to draw a conclusion.",PASS,,
+m3_009,physics_101,I keep forgetting units when I solve force problems.,units; force,Give a practical strategy for tracking units in force problems and include a correct force-unit example.,,,"Can you walk me through the most recent force problem you worked on and tell me **what quantities you wrote down**?  
+For each quantity, try to list:
+
+1. The symbol you used (e.g., *F*, *m*, *a*)  
+2. Its numerical magnitude (the number)  
+3. The unit you attached (e.g., N, kg, m/s²)  
+
+Once you have that list, compare it to the checklist below to see if anything is missing or mismatched.
+
+**Unit‑tracking checklist**
+
+1️⃣ Write the symbol.  
+2️⃣ Write its magnitude.  
+3️⃣ Write the unit.  
+4️⃣ Check that the units on the right‑hand side of Newton’s second law ( *F = m a* ) combine to give newtons (N).  
+
+Use the checklist as you set up the problem, not after you’ve solved it. It helps you catch a missing unit before it propagates through the rest of the work.
+
+**Hint:** After you list each quantity, plug the symbols into *F = m a* and see whether the units on the right side simplify to N. If they don’t, go back and correct the unit you wrote for the offending quantity.",PASS,,
+m3_010,chemistry_201,I tried balancing this reaction but I am unsure what to check next.,balance; check,"Guide the student to check atom counts and charge after balancing, without doing the reaction for them.",,,"Great—let’s make sure you have all the pieces in place before you adjust any coefficients.
+
+1. **State the law that governs balancing reactions.**  
+   What does the law of conservation of mass say about the atoms in a chemical reaction?
+
+2. **List the atoms on the reactant side.**  
+   Write each element that appears in the unbalanced equation and count how many atoms of that element are present on the reactants.
+
+3. **List the atoms on the product side.**  
+   Do the same for the products: list each element and its atom count.
+
+4. **Compare the two lists.**  
+   Identify any elements whose totals differ between reactants and products. Those are the ones you still need to balance.
+
+5. **Check the stoichiometric ratios you’re using.**  
+   For each unbalanced element, look at the ratios of the coefficients you’ve tried so far. Do the ratios correctly reflect the number of atoms needed on each side?
+
+Once you’ve written out those counts and spotted the mismatches, you’ll know exactly which coefficients need adjusting.
+
+**Next step:** Write down the atom counts for both sides of your specific equation and tell me which elements are currently unbalanced. This will let us focus on the right stoichiometric ratios.",PASS,,
