@@ -1,0 +1,2 @@
+import test from 'node:test';import assert from 'node:assert/strict';import handler from './http.mjs';
+test('Vercel HTTP adapter returns status JSON',async()=>{const res={headers:{},setHeader(k,v){this.headers[k]=v;},end(body){this.body=body;}};await handler({url:'/api/agent/status',method:'GET',headers:{host:'kaizen.test'}},res);assert.equal(res.statusCode,200);assert.equal(JSON.parse(res.body).provider,'NRP');assert.equal(res.headers['content-type'],'application/json');});

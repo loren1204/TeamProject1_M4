@@ -241,3 +241,11 @@ score.
   rejected by a schema validator.
 - Model calls and MCP subprocesses require network access and valid provider
   credentials; offline fallback and retry policy are not implemented yet.
+
+
+## Kaizen M4 web workspace
+
+The React/TypeScript application is in [`web/`](web/README.md). It includes the blue/yellow glass design, Supabase account authentication, and server-side NRP planner → tutor requests for Vercel. See [`web/README.md`](web/README.md) for setup, required environment variables, tests, and current integration limits.
+
+The Python agent, MCP servers, M4 tutor prompt, evaluation harness, and existing project instructions above are preserved. The web adapter ports the sequential teaching flow and is not a replacement for the Python MCP implementation. Live NRP responses require configured provider credentials; no live model run is claimed by the web test suite.
+
