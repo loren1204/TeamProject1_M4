@@ -3,6 +3,37 @@
 CourseGuide AI is a policy-aware tutoring prototype that helps students take
 the next reasoning step without doing graded work for them.
 
+## M4 CHANGES
+
+1. **Evaluation keywords and reporting (Daniel).** Keyword alternatives and
+   the `missing_keywords` column were added because acceptable wording could
+   otherwise fail exact keyword checks. The UTF-8 fix addresses garbled text
+   in the baseline CSV. Evaluation results are kept in `docs/`; the generated
+   scratch CSV remains untracked. These are evaluation and reporting
+   improvements, not agent improvements.
+2. **Tutor prompt round 1 (Andriana).** The prompt was revised because m3_001
+   and m3_006 asked questions instead of giving the expected assistance.
+   m3_006 now passes; m3_001 still fails because it does not directly explain
+   the scalar/vector distinction.
+3. **Tutor prompt round 2 (Andriana).** The prompt was revised to label
+   similar examples and make refusals clearer. m3_005 and m3_008 now pass.
+   m3_004 still fails automated keyword scoring, although human review passed
+   it because the response avoided giving the answer and offered a hint.
+4. **Kaizen web workspace (Loren).** A React/TypeScript browser workspace
+   provides student and instructor views, course-specific tutoring,
+   assignments and practice activities, Supabase authentication, and a
+   server-side NRP Planner-to-Tutor adapter deployed through Vercel. The
+   student experience includes conversation history, accessibility settings,
+   and an image-attachment interface; history is browser-scoped and uploaded
+   image contents are not interpreted by the model. Instructor analytics use
+   demonstration data. Kaizen did not directly affect the ten original
+   automated evaluation cases because those cases do not test the web
+   workspace.
+5. **Evaluation results.** Automated scoring improved from the M3 baseline
+   of 4/10 (40%) to 6/10 (60%). Human review separately passed 9/10 (90%);
+   this is not the automated score. The original automated threshold of 8/10
+   (80%) was not met.
+
 ## M3 CHANGES
 
 The M2 single agent was extended into a sequential multi-agent system:
@@ -220,18 +251,15 @@ Because this sends real requests to the model, it needs your `.env` credentials
 and may take a few minutes. To run only the quick offline checks instead (no
 model calls), use `python -m pytest tests/test_m3_evaluation.py -q` (shown above).
 
-## M3 submission status
+## M4 submission status
 
-The repository contains the M3 implementation, evaluation plan, baseline
-results, and supporting tests. The architecture diagram, screen recording,
-cost and sustainability analysis, user-testing plan, and teammate contribution
-evidence are maintained as separate submission materials.
-
-The baseline had substantive quality gaps in cases `m3_001` and `m3_006`:
-their outputs asked follow-up questions without explaining the requested
-concepts. Other automated failures may be keyword misses rather than incorrect
-guidance, so the baseline should not be treated as a final human-reviewed
-score.
+The repository contains the Python Planner/Tutor and MCP implementation, the
+Kaizen web workspace and NRP adapter, the ten-case M4 evaluation CSV with
+approved human review, and the M4 evaluation summary. The automated result is
+6/10 and does not meet the original 8/10 threshold; the separate human-review
+result is 9/10. No completed user-testing notes were supplied, so testing
+evidence must not be reported as complete. Remaining M4 planning and
+submission documents are maintained under `docs/`.
 
 ## Known limitations
 
