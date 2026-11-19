@@ -53,7 +53,9 @@ or LMS integration is claimed as established.
 
 **(Changed: Testers 1–5 raised needs around direct explanations, clear
 restrictions, privacy information, conversation continuity, and image
-feedback.)**
+feedback. Four of five undergraduate criteria were met; independent task
+completion was 3/5 (60%), and no numerical satisfaction ratings were
+recorded.)**
 
 - Self-service AI tutoring.
 - Course-specific support.
@@ -63,7 +65,12 @@ feedback.)**
 - Clear communication about data storage and tutoring limits.
 
 Conversation history is currently browser-scoped. The needs above are
-qualitative interview feedback; the notes provide no ratings or criterion-level
+qualitative interview feedback from completed in-person sessions on November
+13, 2026. Four of five undergraduate criteria were met: next-step explanation
+4/5, reuse 4/5, restriction understanding 5/5, and zero students received a
+restricted full answer. Independent task completion was 3/5 (60%), below its
+4/5 target. No numerical satisfaction ratings were recorded; George's
+instructor-perspective evaluation is supplementary and excluded from those
 counts.
 
 ## Revenue Streams
@@ -96,14 +103,16 @@ infrastructure to the existing agent resources.)**
 
 **(Changed: The automated result is 6/10, below the 8/10 target; completed
 interviews identified related needs for clearer tutoring limits and
-consistent instructor policies.)**
+consistent instructor policies. Student testing met four of five criteria,
+with independent completion at 3/5 (60%), below target.)**
 
 - Maintaining and improving the tutoring agent.
 - Evaluating agent responses.
 - Improving academic-integrity enforcement.
 - Managing course-specific policies.
-- Continuing user testing and measuring the M3 criteria; the completed M4
-  notes do not include participant-level criterion counts.
+- Improving independent task completion, the only M3 student criterion not
+  met (3/5 against a 4/5 target), and validating the other four student
+  criteria in later testing.
 - Maintaining Kaizen.
 - Developing meaningful educational analytics.
 

@@ -257,12 +257,15 @@ The repository contains the Python Planner/Tutor and MCP implementation, the
 Kaizen web workspace and NRP adapter, the ten-case M4 evaluation CSV with
 approved human review, and the M4 evaluation summary. The automated result is
 6/10 and does not meet the original 8/10 threshold; the separate human-review
-result is 9/10. Completed qualitative evaluation summaries for five
-undergraduate students and one additional instructor-perspective evaluator
-are recorded in `docs/m4_user_testing_sessions.md`; the notes do not include
-session dates, formats, ratings, or criterion-level counts, so the M3
-user-testing success measures cannot be scored yet. Remaining M4 planning and
-submission documents are maintained under `docs/`.
+result is 9/10. Human review confirmed m3_001 as a behavioral failure and
+passed m3_003, m3_004, and m3_007 despite their automated keyword failures.
+Completed in-person evaluations on November 13, 2026, included five
+undergraduate students and one supplementary instructor-perspective
+evaluator. Four of five undergraduate criteria were met; independent task
+completion was 3/5 (60%), below its 4/5 target. Numerical participant
+ratings were not recorded. See `docs/m4_user_testing_sessions.md` and the
+other M4 planning documents under `docs/` for the testing results and
+scope-down decision.
 
 ## Known limitations
 

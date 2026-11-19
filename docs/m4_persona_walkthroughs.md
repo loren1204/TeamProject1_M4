@@ -2,21 +2,20 @@ Supplementary navigation walkthroughs; the user testing evidence for M4 is in m4
 
 # M4 User Testing: Persona Walkthroughs
 
-These six supplementary walkthroughs summarize the completed human-testing
-interviews documented in [`m4_user_testing_sessions.md`](./m4_user_testing_sessions.md).
-The notes are paraphrased, not verbatim quotations. They do not provide
-individual session dates, formats, or ratings; those details are identified as
-not recorded rather than inferred. First names only are used here. George is
-the additional instructor-perspective evaluator and is not included in the
-five-student M3 criteria.
+These six supplementary walkthroughs summarize completed in-person interviews
+held November 13, 2026 and documented by tester number in
+[`m4_user_testing_sessions.md`](./m4_user_testing_sessions.md). Feedback is
+paraphrased; no verbatim quotations or numerical ratings were recorded. First
+names only are used here. George is the additional instructor-perspective
+evaluator and is excluded from the five-student M3 criteria.
 
 ## Maya — Software Engineering Student
 
 **Role/context:** Third-year Software Engineering student who regularly uses
 AI tools to study and understand unfamiliar concepts.
 
-**Task:** Use Kaizen to understand the difference between velocity and
-acceleration, then receive guidance on a related Physics 101 problem.
+**Task:** Use Kaizen to understand velocity and acceleration and receive
+guidance on a related Physics 101 problem.
 
 **Walkthrough:**
 
@@ -25,28 +24,30 @@ acceleration, then receive guidance on a related Physics 101 problem.
 3. Asked for an explanation of velocity and acceleration.
 4. Received a guiding question instead of the direct explanation expected.
 5. Rephrased the request for a simpler explanation.
-6. Continued with a related physics problem and reviewed the suggested
-   reasoning step.
+6. Continued with a related physics problem.
+7. Explained the suggested reasoning step without facilitator assistance.
 
-**Where she got stuck:** The Tutor did not distinguish a general concept
-request clearly from graded homework assistance.
+**Where she got stuck:** The Tutor did not clearly distinguish a general
+concept question from graded homework help.
 
-**Feedback summary:** Organizing conversations by course was useful compared
-with general-purpose AI. Direct explanations would be preferable for general
-academic questions.
+**Feedback summary:** Course-based conversation organization was useful
+compared with general-purpose AI. Direct explanations were preferred for
+general questions.
 
-**What surprised us:** Course organization was useful even to a frequent AI
-user, while guiding questions could make a simple concept explanation
-unnecessarily complicated.
+**What surprised us:** Organization was useful to a frequent AI user, while
+guiding questions could make a simple concept explanation unnecessarily
+complicated.
 
-**Adoption consideration:** Direct explanations may make Kaizen more useful
-for study and exam preparation. A direct yes/no reuse response was not
-recorded.
+**Would she use Kaizen again?** Yes, for studying and exam preparation.
+**Improvement requested:** More direct concept explanations.
+**M3 outcomes:** Completed independently: Yes; explained next step: Yes;
+would reuse: Yes; received restricted full answer: No; understood
+restrictions: Yes.
+**Ratings:** Numerical satisfaction rating not recorded.
 
-**Related evaluation case:** m3_001 is thematically related, but its prompt
-asks about speed and velocity rather than velocity and acceleration.
-
-**Session date, format, ratings, and M3 criterion outcomes:** Not recorded.
+**Related evaluation case:** m3_001 is related to direct concept
+explanations, but its prompt asks about speed and velocity rather than
+velocity and acceleration.
 
 ## Elena — Pre-Med Student
 
@@ -65,28 +66,30 @@ Tutor complete the graded problem.
 5. Received guidance instead of a complete answer.
 6. Requested a similar example and reviewed how it could apply to the
    assignment.
+7. Explained the next reasoning step successfully.
 
 **Where she got stuck:** The reason for withholding the final answer was
-unclear. She was also uncertain whether handwritten work was analyzed.
+unclear; she was also unsure whether handwritten work was analyzed.
 
 **Feedback summary:** Similar examples were useful as an alternative to
 solving the assigned problem. Assignment organization felt familiar from
 Canvas.
 
-**What surprised us:** A similar example can continue to help while
+**What surprised us:** A related example can continue to help while
 respecting academic-integrity restrictions; familiar course organization may
 reduce confusion.
 
-**Adoption consideration:** Chemistry assignments and independent exam
-preparation may be useful contexts. A direct yes/no reuse response was not
-recorded.
+**Would she use Kaizen again?** Yes, for chemistry assignments and
+independent exam preparation, especially when an instructor is unavailable.
+**Improvement requested:** Explain restrictions, continue offering examples
+and bounded hints, and clarify whether uploaded work was analyzed.
+**M3 outcomes:** Completed independently: Yes; explained next step: Yes;
+would reuse: Yes; received restricted full answer: No; understood
+restrictions: Yes.
+**Ratings:** Numerical satisfaction rating not recorded.
 
 **Related evaluation cases:** m3_004 and m3_005. Human review passed both;
 m3_004 remains an automated keyword failure.
-
-**Session date, format, ratings, and M3 criterion outcomes:** Not recorded,
-except that no complete answer was reported in the described exchange; the
-full session policy outcome was not recorded.
 
 ## Jordan — Biology Student
 
@@ -102,28 +105,34 @@ reasoning step in a genetics problem.
 2. Requested an explanation of cell membrane structure and function.
 3. Explored the agent's approach to a genetics problem.
 4. Reviewed the Planner-to-Tutor workflow.
-5. Transitioned to the Kaizen Student workspace.
-6. Explored Workspace Settings and available privacy information.
-7. Considered instructor access to tutoring conversations.
+5. Required facilitator assistance during the session.
+6. Transitioned to the Kaizen Student workspace.
+7. Explored Workspace Settings and available privacy information.
+8. Considered instructor access to tutoring conversations.
+9. Explained the next reasoning step successfully.
 
 **Where he got stuck:** Planner/Tutor terminology was not immediately
 meaningful, and the interface did not clearly establish what information was
-stored or whether instructors could see conversations.
+stored or whether instructors could see conversations. He required
+facilitator assistance.
 
 **Feedback summary:** Instructor approval and transparency about data use
 matter to students concerned about academic-integrity expectations.
 
 **What surprised us:** Instructor approval and privacy transparency may be as
-important to adoption as response quality; policy restrictions may encourage
+important to adoption as response quality. Restrictions may encourage
 cautious students to use course-specific AI.
 
-**Adoption consideration:** Explicit instructor approval and clear privacy
-information could make Kaizen more approachable. A direct yes/no reuse
-response was not recorded.
+**Would he use Kaizen again?** Yes, in a course where the instructor permits
+it and privacy information is clear.
+**Improvement requested:** Explain data handling and instructor access and
+reduce unnecessary technical terminology.
+**M3 outcomes:** Completed independently: No; explained next step: Yes;
+would reuse: Yes; received restricted full answer: No; understood
+restrictions: Yes.
+**Ratings:** Numerical satisfaction rating not recorded.
 
 **Related evaluation cases:** m3_006 and m3_007.
-
-**Session date, format, ratings, and M3 criterion outcomes:** Not recorded.
 
 ## Alex — Engineering Student
 
@@ -142,25 +151,32 @@ functionality, and complete a physics practice activity.
 4. Asked how units can verify a force equation.
 5. Reviewed the explanation and suggested next step.
 6. Opened Practice and explored topics and difficulty settings.
+7. Completed the assigned tutoring task independently and explained the
+   next reasoning step.
 
 **Where he got stuck:** Accessibility preferences were not immediately
 visible. Cross-device conversation persistence was identified as important;
 the notes do not record a completed cross-device resume attempt.
 
-**Feedback summary:** A dedicated practice section was useful. Account-based
-history and more accessible settings would improve the experience.
+**Feedback summary:** A dedicated practice section was useful.
+Account-based history and more accessible settings would improve the
+experience.
 
 **What surprised us:** Practice can support exam preparation beyond
 conversation. Accessibility and persistence may affect continued use even
 when tutoring responses are useful.
 
-**Adoption consideration:** Practice and consistent access across devices
-were identified as potential reasons to continue. A direct yes/no reuse
-response was not recorded.
+**Would he use Kaizen again?** Yes, for practice activities and reviewing
+physics concepts. Account-based conversation history would improve the
+experience.
+**Improvement requested:** Synchronize conversations, improve settings
+visibility, and maintain structured practice.
+**M3 outcomes:** Completed independently: Yes; explained next step: Yes;
+would reuse: Yes; received restricted full answer: No; understood
+restrictions: Yes.
+**Ratings:** Numerical satisfaction rating not recorded.
 
 **Related evaluation case:** m3_009.
-
-**Session date, format, ratings, and M3 criterion outcomes:** Not recorded.
 
 ## Sofia — Computer Science Student
 
@@ -179,6 +195,8 @@ feedback specific to the uploaded work.
 4. Checked whether the response referenced visual information.
 5. Explored a friction follow-up and compared image-based with text-based
    tutoring.
+6. Could not complete the image-specific task or explain its intended next
+   step independently.
 
 **Where she got stuck:** The interface did not make clear whether uploaded
 content was received and analyzed. The documented implementation does not
@@ -192,12 +210,15 @@ tools.
 establish that the model understood it; this can reduce confidence in other
 features.
 
-**Adoption consideration:** Reliable image analysis and course-specific
-guidance were identified as important. A direct yes/no reuse response was
-not recorded.
-
-**Session date, format, ratings, and M3 criterion outcomes:** Not recorded;
-image-specific completion was not formally assessed.
+**Would she use Kaizen again?** No, not in its current state. Reliable image
+analysis and stronger course-specific guidance would improve the likelihood
+of reuse.
+**Improvement requested:** Process supported images, provide image-specific
+feedback, and indicate when an image has been analyzed.
+**M3 outcomes:** Completed independently: No; explained next step: No;
+would reuse: No; received restricted full answer: No; understood
+restrictions: Yes.
+**Ratings:** Numerical satisfaction rating not recorded.
 
 ## George — Graduate Student and Instructor-Perspective Evaluator
 
@@ -235,17 +256,26 @@ improvement over time as potentially useful measures.
 conversation volume toward educational outcomes and course-content
 improvement.
 
-**Adoption consideration:** Reliable policy enforcement, meaningful
-analytics, and compatibility with existing workflows were identified as
-important. A direct recommendation or rating was not recorded.
+**Would he recommend Kaizen?** A direct recommendation was not recorded.
+Reliable policy enforcement, meaningful analytics, and compatibility with
+existing workflows were identified as adoption factors.
+**Suggested improvements:** Store and apply policies server-side, measure
+actual educational activity and improvement, and investigate Canvas
+integration.
+**M3 outcomes:** Not applicable; George is excluded from the undergraduate
+criteria.
+**Ratings:** Numerical rating not recorded.
 
-**Session date, format, ratings, and student M3 criterion outcomes:** Not
-recorded or applicable; George is excluded from the undergraduate criteria.
+## Confirmed undergraduate results
 
-## Evidence notes
+| M3 student outcome | Result |
+|---|---:|
+| Completed independently | 3/5 (60%) |
+| Explained the next reasoning step | 4/5 (80%) |
+| Would use Kaizen again | 4/5 (80%) |
+| Received a restricted full answer | 0/5 |
+| Understood the tutoring restrictions | 5/5 (100%) |
 
-The supplied notes provide six completed evaluation summaries and
-paraphrased feedback, not verbatim quotations. They give no individual
-session dates or formats, participant ratings, or full participant-level M3
-criterion counts. Those details are recorded as “Not recorded” in the
-numbered session document rather than inferred.
+Four of the five M3 success criteria were met. Independent task completion
+was the only criterion not met. The notes provide no numerical participant
+ratings or verbatim quotations.
