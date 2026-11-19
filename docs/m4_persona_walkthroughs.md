@@ -2,363 +2,246 @@ Supplementary navigation walkthroughs; the user testing evidence for M4 is in m4
 
 # M4 User Testing: Persona Walkthroughs
 
-These are simulated student persona walkthroughs and a proposed instructor
-perspective scenario. Names, dialogue, observations, and ratings are
-illustrative, not evidence from completed participant sessions. The actual
-testing record is maintained separately in
-[`m4_user_testing_sessions.md`](./m4_user_testing_sessions.md).
+These six supplementary walkthroughs are based on the completed human-testing
+summaries supplied for M4. The primary evidence is recorded by tester number
+in [`m4_user_testing_sessions.md`](./m4_user_testing_sessions.md). These
+narratives use first names only. The supplied notes contain feedback
+summaries, not verbatim quotations, individual session dates or formats, or
+collected ratings; none are invented here. George is the additional
+instructor-perspective evaluator and is not included in the five-student
+criteria.
 
 ## Maya — Software Engineering Student
 
-**Role/context:** Third-year Software Engineering student taking Physics 101.
-Frequently uses AI to study and review unfamiliar concepts.
+**Role/context:** Third-year Software Engineering student who regularly uses
+AI tools to study and clarify unfamiliar concepts.
 
-**Walkthrough setting:** Kaizen Student workspace, physics_101.
+**Walkthrough setting:** Kaizen Student workspace, Physics 101.
 
-**Task given:** Understand the difference between velocity and acceleration
-and receive guidance on a related homework problem.
+**Task:** Understand the difference between velocity and acceleration and
+receive guidance on a related physics problem.
 
-**What they did:**
+**What happened:**
 
-1. Opened Kaizen and entered the Student workspace.
-2. Selected Physics 101.
-3. Asked the Tutor to explain the difference between velocity and acceleration.
-4. Received a guiding question instead of a straightforward definition.
-5. Rephrased the question and requested a simpler explanation.
-6. Continued with a related homework problem and applied the suggested
+1. Maya entered the Student workspace and selected Physics 101.
+2. She explored the course-specific tutoring interface.
+3. She asked for an explanation of velocity and acceleration.
+4. The Tutor responded with a guiding question instead of the direct
+   explanation she expected.
+5. She rephrased the request for a simpler explanation.
+6. She continued with a related physics problem and reviewed the suggested
    reasoning step.
 
-**Where they got stuck:** The Tutor treated a general concept question
-similarly to a graded homework question. Maya expected a short explanation
-before being asked to demonstrate understanding.
+**Where she got stuck:** The response did not clearly distinguish a general
+concept request from a graded homework request.
 
-**Illustrative feedback:** “I like that everything is separated by class, but
-sometimes I just need a definition before I can start working through a
-problem.”
+**Feedback summary:** Organizing conversations by course was useful. Direct
+explanations would be more appropriate when asking a general academic
+question.
 
-**What surprised us:** Course organization could help students who already
-use AI regularly. Restrictions applied to general concept questions may make
-tutoring unnecessarily difficult.
+**Walkthrough takeaway:** Course organization may help frequent AI users, but
+the Tutor should explain concepts directly when appropriate.
 
-**Would they use the agent again?** Uncertain. More likely if concept
-explanations were direct and guiding questions were used when appropriate.
+**Adoption consideration:** More direct concept explanations could make the
+workspace more useful for studying and exam preparation. A direct yes/no
+reuse response was not recorded.
 
-**Illustrative ratings:**
+**Related evaluation case:** m3_001 is thematically related to direct concept
+explanations, but its evaluation prompt asks about velocity and speed, not
+velocity and acceleration.
 
-- Visual design: 5/5
-- Ease of navigation: 5/5
-- Tutoring effectiveness: 3/5
-- Likelihood of reuse: 3/5
+## Elena — Pre-Med Student
 
-**Related evaluation case:** m3_001.
+**Role/context:** Second-year Pre-Med student who uses AI occasionally when
+studying independently or working through difficult assignments.
 
-## Elena — Pre-Med Chemistry Student
+**Walkthrough setting:** Kaizen Student workspace, Chemistry 201.
 
-**Role/context:** Second-year Pre-Med student taking Chemistry 201. Works
-part-time and often studies independently after work.
+**Task:** Get help checking a stoichiometry assignment without having the Tutor
+complete the graded problem.
 
-**Walkthrough setting:** Kaizen Student workspace, chemistry_201.
+**What happened:**
 
-**Task given:** Check a stoichiometry setup and get help without having the
-Tutor complete the graded problem.
+1. Elena entered the Chemistry 201 workspace and opened Assignments.
+2. She reviewed the image-attachment functionality.
+3. She requested help checking a stoichiometry problem and asked for a direct
+   solution to evaluate the tutoring restrictions.
+4. The Tutor provided guidance rather than a complete answer.
+5. She requested a similar example and reviewed how it could apply to her
+   assignment.
 
-**What they did:**
+**Where she got stuck:** The Tutor did not always clearly explain why it
+withheld a final answer. The notes also report uncertainty about whether
+handwritten work was analyzed.
 
-1. Opened Assignments and selected Chemistry 201.
-2. Located a stoichiometry assignment.
-3. Used the image-attachment interface to attach a photograph of handwritten
-   work.
-4. Asked whether the setup was correct and requested the final answer.
-5. Received a next step without an explicit refusal.
-6. Repeated the question because the response appeared to misunderstand it.
-7. Asked for a similar example.
-8. Received a labeled example and applied the same process to the original
-   problem.
+**Feedback summary:** A similar example gives a student a way to practice
+instead of receiving only a refusal. The assignment organization felt
+familiar from Canvas.
 
-**Where they got stuck:** The Tutor did not clearly communicate why it would
-not provide the final answer. The current prototype does not pass uploaded
-image contents to the tutoring model.
+**Walkthrough takeaway:** Communicate academic-integrity restrictions clearly
+while continuing to provide useful hints and examples.
 
-**Illustrative feedback:** “I thought it wasn't understanding what I was
-asking, but once it gave me a similar example, I knew how to do the rest.”
+**Adoption consideration:** Chemistry assignments and exam preparation
+outside class may be useful contexts. A direct yes/no reuse response was not
+recorded.
 
-**What surprised us:** A similar example could provide more educational value
-than simply refusing an answer because it lets students practice the same
-reasoning independently.
+**Related evaluation cases:** m3_004 and m3_005. The CSV's human review
+passes both cases; m3_004 remains an automated keyword failure.
 
-**Would they use the agent again?** Yes, particularly for chemistry
-assignments and exam preparation, if refusals are clear and uploaded work is
-analyzed.
+## Jordan — Biology Student
 
-**Illustrative ratings:**
+**Role/context:** Third-year Biology student with limited experience using AI
+for academic work because of concerns about instructor policies and academic
+integrity.
 
-- Visual design: 4/5
-- Ease of navigation: 4/5
-- Tutoring effectiveness: 4/5
-- Likelihood of reuse: 4/5
+**Walkthrough setting:** Python tutoring agent followed by the Kaizen Student
+workspace.
 
-**Related evaluation cases:** m3_004 and m3_005.
+**Task:** Receive a biological concept explanation and identify the next
+reasoning step in a genetics problem.
 
-## Jordan — Biology Student Cautious About Academic Integrity
+**What happened:**
 
-**Role/context:** Third-year Biology transfer student taking Biology 201.
-Rarely uses general-purpose AI for coursework because of academic integrity
-concerns.
+1. Jordan reviewed the Python tutoring agent.
+2. He requested an explanation of cell membrane structure and function.
+3. He explored the agent's approach to a genetics problem.
+4. He reviewed the Planner-to-Tutor workflow.
+5. He moved to the Kaizen Student workspace.
+6. He explored Workspace Settings and available privacy information.
+7. He considered what instructors could see about student tutoring activity.
 
-**Walkthrough setting:** Python terminal agent (`src/m3_agent`), biology_201,
-followed by the Kaizen Student workspace.
+**Where he got stuck:** Planner and Tutor terminology was not immediately
+meaningful. Information about stored data and instructor access did not
+resolve all privacy questions.
 
-**Task given:** Understand the relationship between cell membrane structure
-and function and receive guidance on a genetics problem.
+**Feedback summary:** Instructor approval and transparency about data use
+matter to students concerned about academic-integrity expectations.
 
-**What they did:**
+**Walkthrough takeaway:** Explain the system and privacy practices in terms
+students can understand; policy compliance is also a trust concern.
 
-1. Asked the Python tutoring agent to explain the cell membrane.
-2. Received an explanation involving the phospholipid bilayer and membrane
-   proteins.
-3. Asked for help interpreting offspring counts in a genetics problem.
-4. Received a request for the cross and observed ratios, followed by a
-   suggested reasoning step.
-5. Asked what Planner and Tutor meant in the terminal output.
-6. Entered the Kaizen Student workspace.
-7. Opened the profile menu and Workspace Settings to look for information
-   about privacy and instructor access.
+**Adoption consideration:** Clear privacy information and explicit
+instructor approval could make the tool more approachable. A direct yes/no
+reuse response was not recorded.
 
-**Where they got stuck:** Jordan was unsure who could access student
-conversations and whether the two-agent architecture meant multiple parties
-received the student's information.
+## Alex — Engineering Student
 
-**Illustrative feedback:** “I would feel more comfortable using this if my
-professor approved it and I knew what information was being shared with
-them.”
+**Role/context:** Second-year Engineering student who uses personal and
+university computers and prefers customizable interface settings.
 
-**What surprised us:** Academic integrity restrictions could support
-adoption. Students cautious about AI may value a tool that respects
-instructor-established policies.
+**Walkthrough setting:** Kaizen Student workspace, Physics 101.
 
-**Would they use the agent again?** Yes, if the instructor approved it and
-the application clearly explained conversation storage and privacy.
+**Task:** Explore the workspace, review how to resume a tutoring conversation,
+and complete a physics practice activity.
 
-**Illustrative ratings:**
+**What happened:**
 
-- Visual design: 4/5
-- Ease of navigation: 3/5
-- Tutoring effectiveness: 4/5
-- Likelihood of reuse: 4/5
+1. Alex entered the Student workspace and reviewed the loading animation.
+2. He explored accessibility preferences in Workspace Settings.
+3. He selected Physics 101 and reviewed the conversation-resume feature.
+4. He asked how units can be used to verify a force equation.
+5. He reviewed the explanation and suggested next step.
+6. He opened Practice and explored topics and difficulty settings.
 
-## Alex — Engineering Student Who Prefers Reduced Motion
+**Where he got stuck:** Accessibility preferences were not immediately
+visible. Cross-device conversation persistence was identified as an
+important need; the notes do not record a completed cross-device resume test.
 
-**Role/context:** Second-year Engineering student taking Physics 101. Uses a
-personal laptop and university computers and prefers reduced interface
-motion.
+**Feedback summary:** A dedicated practice section was useful. Account-based
+history and visible interface preferences would improve the experience.
 
-**Walkthrough setting:** Kaizen Student workspace, physics_101, across two
-devices.
+**Walkthrough takeaway:** Accessibility and persistence expectations matter
+alongside the quality of tutoring responses.
 
-**Task given:** Resume a force-and-units tutoring conversation and complete a
-practice question.
-
-**What they did:**
-
-1. Signed into Kaizen from a university computer.
-2. Viewed the introductory logo animation and looked for a way to disable it.
-3. Located Reduce interface motion through the profile menu and Workspace
-   Settings.
-4. Selected Physics 101.
-5. Clicked Pick up where you left off to locate a previous tutoring
-   conversation.
-6. Found that the previous conversation was unavailable on the second device.
-7. Re-entered the question, “How do units help me check a force problem?”
-8. Received an explanation involving newtons and a suggested next step.
-9. Opened Practice, selected a concept and difficulty, and completed an
-   attempt.
-
-**Where they got stuck:** The reduced-motion setting was difficult to locate.
-Conversation history is browser-scoped and does not synchronize across
-devices.
-
-**Illustrative feedback:** “If I'm logged into the same account, I would
-expect my conversations to still be there when I switch computers.”
-
-**What surprised us:** Tutoring content was useful in this scenario. The main
-difficulties involved accessibility and persistence rather than the
-educational response.
-
-**Would they use the agent again?** Yes, if conversation history followed the
-account and accessibility preferences were easier to locate.
-
-**Illustrative ratings:**
-
-- Visual design: 4/5
-- Ease of navigation: 3/5
-- Tutoring effectiveness: 5/5
-- Likelihood of reuse: 4/5
+**Adoption consideration:** Practice activities and consistent access across
+devices were identified as potential reasons to continue using Kaizen. A
+direct yes/no reuse response was not recorded.
 
 **Related evaluation case:** m3_009.
 
 ## Sofia — Computer Science Student
 
-**Role/context:** Fourth-year Computer Science student who regularly uses
-multiple AI tools for studying, programming, and problem solving.
+**Role/context:** Fourth-year Computer Science student experienced with
+multiple AI platforms for academic and technical problem solving.
 
-**Walkthrough setting:** Kaizen Student workspace, physics_101.
+**Walkthrough setting:** Kaizen Student workspace, Physics 101.
 
-**Task given:** Upload a free-body diagram and ask the Tutor whether the
-forces are represented correctly without completing the full problem.
+**Task:** Upload a free-body diagram and determine whether Kaizen can give
+feedback specific to the uploaded work.
 
-**What they did:**
+**What happened:**
 
-1. Entered the Student workspace.
-2. Selected Physics 101.
-3. Used the image-attachment interface for a free-body diagram containing
-   gravity, normal force, applied force, and friction.
-4. Asked whether the forces were represented correctly.
-5. Examined whether the response referred to specific details in the diagram.
-6. Asked a follow-up about the direction of friction.
-7. Compared the response with capabilities expected from other AI tools.
-8. Continued with a text-based question to evaluate the tutoring experience.
+1. Sofia entered the Student workspace and selected Physics 101.
+2. She uploaded a diagram with gravitational, normal, applied, and friction
+   forces.
+3. She requested feedback and checked whether the response referenced visual
+   information.
+4. She explored a follow-up about friction and compared the image-based
+   experience with text tutoring.
 
-**Where they got stuck:** The interface accepts an image attachment, but the
-current prototype does not pass image contents to the tutoring model. A
-student may not know whether a response is based on the submitted work.
+**Where she got stuck:** The interface needs to make clear whether uploaded
+content was received and analyzed. The supplied notes do not record a
+criterion-level completion outcome.
 
-**Illustrative feedback:** “If I'm uploading my work, I want it to look at
-what I actually did instead of just giving me a general explanation.”
+**Feedback summary:** Students need feedback tied to their submitted work,
+not only a general explanation. Experienced AI users may compare the image
+feature with other tools.
 
-**What surprised us:** An incomplete feature could reduce trust in otherwise
-useful tutoring. Students familiar with other AI platforms may notice when a
-response does not incorporate visual information.
+**Walkthrough takeaway:** Support image analysis reliably or explain its
+limitations to avoid confusion.
 
-**Would they use the agent again?** Conditional on reliable image analysis
-and useful course-specific guidance.
+**Adoption consideration:** Reliable image analysis and course-specific
+guidance were identified as important; a direct yes/no reuse response was not
+recorded.
 
-**Illustrative ratings:**
-
-- Visual design: 5/5
-- Ease of navigation: 4/5
-- Tutoring effectiveness: 3/5
-- Likelihood of reuse: 3/5
-
-## George — Graduate Student and Digital Education Specialist
+## George — Graduate Student and Instructor-Perspective Evaluator
 
 **Role/context:** Master's student in Data Science and Artificial
-Intelligence involved with the Dendritic Institute. His supplied experience
-includes digital education, Canvas course development, and evaluating
-educational success through analytics. He represents an additional
-instructor-perspective evaluator.
+Intelligence involved with the Dendritic Institute. His experience includes
+digital education, Canvas course development, and evaluating educational
+success through analytics.
 
-**Walkthrough setting:** Proposed Kaizen Instructor and Student workspace
-evaluation.
+**Evaluation role:** Supplementary instructor and digital-education
+perspective. George is separate from the five undergraduate student
+evaluations.
 
-**Task given:** Determine whether Kaizen could supplement existing Canvas
-courses, provide instructor control over AI-assisted learning, and support
-educational analytics.
+**Task:** Evaluate how Kaizen could support instructors and supplement
+existing Canvas courses.
 
-**Proposed walkthrough:**
+**What happened:**
 
-1. Enter the Instructor workspace and review available courses.
-2. Evaluate course creation and management compared with Canvas.
-3. Select a Chemistry 201 stoichiometry assignment.
-4. Configure the assignment to permit hints and similar examples only.
-5. Open the Student workspace in another browser to determine whether the
-   configured policy reaches students.
-6. Request a direct answer to the restricted assignment and evaluate whether
-   the Tutor follows the policy.
-7. Open the instructor analytics dashboard.
-8. Review the demonstration data and available educational metrics.
-9. Determine whether the dashboard could help identify common misconceptions.
-10. Evaluate how Kaizen could supplement an existing Canvas course.
+1. George reviewed the Instructor workspace and course organization.
+2. He considered course management in comparison with Canvas.
+3. He reviewed assignment-level restrictions and how hints or examples could
+   be allowed while complete solutions are restricted.
+4. He considered whether policies would apply consistently across student
+   accounts.
+5. He reviewed the analytics dashboard and the kinds of information useful
+   for understanding student performance.
+6. He considered how Kaizen could fit into a course without requiring
+   instructors to recreate content.
 
-**Potential bottlenecks:** The current prototype keeps instructor policies
-in browser-editable state instead of applying authoritative instructor
-records across student accounts. Its analytics use demonstration data, not
-measurements of actual student learning.
+**Areas for improvement:** Policies should apply consistently across accounts
+and browsers. Analytics should represent meaningful student activity rather
+than demonstration data or conversation volume. Canvas compatibility matters
+to instructors with existing course materials.
 
-**Illustrative discussion points, not actual quotations:**
+**Feedback summary:** The evaluation distinguishes student engagement from
+learning and identifies recurring misconceptions, practice outcomes, and
+improvement over time as potentially useful measures.
 
-- How would Kaizen fit into a course already managed through Canvas?
-- Student engagement does not necessarily demonstrate student learning.
-- Identifying commonly misunderstood concepts could help instructors improve
-  course material.
-- Instructor-configured policies need consistent enforcement in the Student
-  workspace.
+**Walkthrough takeaway:** Position Kaizen as a supplement to existing
+learning-management workflows and prioritize policy management and
+educational outcomes.
 
-**Potential educational analytics:**
+**Adoption consideration:** Reliable policy enforcement, meaningful
+analytics, and compatibility with existing workflows were identified as
+important. A direct recommendation or rating was not recorded.
 
-- Independent practice completion rates.
-- Frequently misunderstood concepts.
-- Repeated student misconceptions.
-- Restricted direct-answer requests.
-- Assignment-level tutoring activity.
-- Improvement across practice attempts.
+## Evidence limits
 
-**What surprised us:** [TO FILL after an actual evaluation.]
-
-**Would they use or recommend the agent?** [TO FILL after an actual
-evaluation.]
-
-**Ratings:** [TO FILL after an actual evaluation.]
-
-George's professional background is relevant because Kaizen adds functionality
-beyond conversational tutoring. His proposed evaluation could help determine
-whether course-specific policies and educational analytics provide value to
-instructors who already use Canvas. The current project has not established
-his findings or recommendation.
-
-## Illustrative outcomes against M3 success criteria
-
-The following summaries are scenario outcomes, not collected participant
-data. George is excluded from all five-student measures.
-
-| M3 student criterion | Target | Illustrative scenario outcome |
-|---|---:|---|
-| Complete task without facilitator assistance | 4/5 | 4/5 |
-| Explain the next reasoning step | 4/5 | 4/5 |
-| Would use the agent again | 3/5 | Three favorable responses, subject to improvements |
-| Critical policy violations | Zero | Zero within simulated scenarios |
-| Understand the agent guides rather than completes work | 4/5 | 5/5 |
-
-Conditional willingness to reuse should not be described as an unconditional
-commitment. Actual outcomes remain unrecorded.
-
-## Illustrative student satisfaction ratings
-
-These are scenario ratings, not collected survey results.
-
-| Persona | Visual design | Navigation | Tutoring | Likelihood of reuse |
-|---|---:|---:|---:|---:|
-| Maya | 5 | 5 | 3 | 3 |
-| Elena | 4 | 4 | 4 | 4 |
-| Jordan | 4 | 3 | 4 | 4 |
-| Alex | 4 | 3 | 5 | 4 |
-| Sofia | 5 | 4 | 3 | 3 |
-| **Illustrative average** | **4.4** | **3.8** | **3.8** | **3.6** |
-
-Overall illustrative average: 3.9/5. George's actual ratings remain [TO FILL].
-
-## Supplementary bottleneck summary
-
-These are persona hypotheses, not observed participant findings.
-
-| Potential bottleneck | Persona(s) | Type | Related evaluation case | Priority |
-|---|---|---|---|---|
-| Concept questions receive unnecessary guiding questions | Maya | Agent prompt | m3_001 | High |
-| Refusal is not stated clearly | Elena | Agent prompt | m3_004 | High |
-| Uploaded work is not interpreted | Elena, Sofia | Feature functionality | None | High |
-| Privacy and data storage are unclear | Jordan | Trust and UI | None | Medium |
-| Conversation history does not sync across devices | Alex | Persistence | None | High |
-| Reduced-motion setting is difficult to find | Alex | Accessibility | None | Medium |
-| Instructor policies are browser-local | George's proposed evaluation | Policy persistence | None | Critical |
-| Instructor analytics use demonstration data | George's proposed evaluation | Educational analytics | None | High |
-| Two sequential model calls may affect response time | Student scenarios | Performance | None | Requires measurement |
-
-## Recommended changes before the final pitch
-
-1. Improve academic-integrity enforcement and response validation.
-2. Save instructor policies server-side.
-3. Distinguish general concept explanations from graded homework assistance.
-4. Implement reliable image analysis or clearly communicate its limitations.
-5. Synchronize conversation history across devices.
-6. Explain student privacy and data storage clearly.
-7. Prioritize meaningful educational analytics.
-8. Improve accessibility settings and reduce unnecessary onboarding friction.
+These narratives summarize the supplied completed evaluation notes; they are
+not verbatim transcripts. The notes provide no individual dates, formats,
+ratings, or participant-level counts for the M3 success criteria. Refer to
+[`m4_user_testing_sessions.md`](./m4_user_testing_sessions.md) for the
+numbered record and those evidence gaps.

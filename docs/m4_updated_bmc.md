@@ -12,9 +12,9 @@ complete block-by-block comparison. No unverified M2 assumptions are invented.
 
 ## Customer Segments
 
-**(Changed: M4 introduces a dedicated instructor workspace and identifies
-digital education departments as potential stakeholders; no new customer
-relationship has been validated.)**
+**(Changed: The M4 notes include a completed instructor-perspective
+evaluation, making instructors and digital education stakeholders explicit
+in the evaluation; this does not establish paying customers.)**
 
 - Undergraduate STEM students are the primary end users.
 - University instructors may configure and manage course policies.
@@ -38,8 +38,8 @@ take a next reasoning step while respecting course policies.
 
 ## Channels
 
-**(Changed: The M4 Kaizen browser workspace adds a direct web channel alongside
-the original agent experience.)**
+**(Changed: Tester 2 found the assignment organization familiar from Canvas,
+and George evaluated Kaizen as a possible supplement to existing courses.)**
 
 - Kaizen web application.
 - University pilot programs.
@@ -51,9 +51,9 @@ or LMS integration is claimed as established.
 
 ## Customer Relationships
 
-**(Changed: Kaizen adds separate student and instructor workspaces; M4
-walkthroughs identify conversation persistence, privacy, and clear tutoring
-restrictions as needs to validate.)**
+**(Changed: Testers 1–5 raised needs around direct explanations, clear
+restrictions, privacy information, conversation continuity, and image
+feedback.)**
 
 - Self-service AI tutoring.
 - Course-specific support.
@@ -62,9 +62,9 @@ restrictions as needs to validate.)**
 - Student learning support.
 - Clear communication about data storage and tutoring limits.
 
-Conversation history is currently browser-scoped. The privacy and persistence
-expectations in the persona walkthroughs are hypotheses, not participant
-findings.
+Conversation history is currently browser-scoped. The needs above are
+qualitative interview feedback; the notes provide no ratings or criterion-level
+counts.
 
 ## Revenue Streams
 
@@ -94,21 +94,23 @@ infrastructure to the existing agent resources.)**
 
 ## Key Activities
 
-**(Changed: The M4 result is 6/10 automated, below the original 8/10 target,
-so reliable response evaluation and policy enforcement remain core work.)**
+**(Changed: The automated result is 6/10, below the 8/10 target; completed
+interviews identified related needs for clearer tutoring limits and
+consistent instructor policies.)**
 
 - Maintaining and improving the tutoring agent.
 - Evaluating agent responses.
 - Improving academic-integrity enforcement.
 - Managing course-specific policies.
-- Conducting user testing.
+- Continuing user testing and measuring the M3 criteria; the completed M4
+  notes do not include participant-level criterion counts.
 - Maintaining Kaizen.
 - Developing meaningful educational analytics.
 
 ## Key Partners
 
-**(Changed: The web workspace introduces Supabase and Vercel infrastructure
-and expands the potential stakeholder set.)**
+**(Changed: George's completed evaluation recommends compatibility with
+existing LMS workflows, raising a future integration-partner opportunity.)**
 
 - NRP model infrastructure.
 - Supabase authentication services.
