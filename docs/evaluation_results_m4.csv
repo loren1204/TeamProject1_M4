@@ -1,21 +1,21 @@
 ﻿test_case_id,course_id,input,expected_keywords,expected_output,human_review,critic_score,actual_output,pass_fail,failure_category,missing_keywords
-m3_001,physics_101,What is the difference between velocity and speed?,velocity; speed; vector,"Explain that speed is a scalar and velocity is a vector, then ask a brief check-for-understanding question.",,,"What do you already know about velocity and speed? Have you seen these terms used in any examples or problems?  
+m3_001,physics_101,What is the difference between velocity and speed?,velocity; speed; vector,"Explain that speed is a scalar and velocity is a vector, then ask a brief check-for-understanding question.",FAIL - It prompts reflection but never explains scalar speed versus vector velocity.,N/A - keyword + human review per M3 plan,"What do you already know about velocity and speed? Have you seen these terms used in any examples or problems?  
 
 **Hint:** Think about situations where direction matters—like a car moving north versus east. Let me know what comes to mind, and we’ll clarify the concepts together.",FAIL,response_keyword,vector
-m3_002,physics_101,I'm stuck on a projectile motion problem. What should I do next?,known|you know; unknown|need to find; hint|next step,Ask the student to identify known and unknown quantities and provide a bounded next-step hint.,,,"Can you tell me what information the problem gives you (the knowns) and what you need to find (the unknowns)? Also, what have you tried so far – for example, which kinematic equations you considered and how you handled the units and sign conventions?
+m3_002,physics_101,I'm stuck on a projectile motion problem. What should I do next?,known|you know; unknown|need to find; hint|next step,Ask the student to identify known and unknown quantities and provide a bounded next-step hint.,PASS - It asks for knowns and unknowns and gives bounded projectile-motion next steps.,N/A - keyword + human review per M3 plan,"Can you tell me what information the problem gives you (the knowns) and what you need to find (the unknowns)? Also, what have you tried so far – for example, which kinematic equations you considered and how you handled the units and sign conventions?
 
 **Next step:**  
 Write down the given quantities with their units, decide on a positive direction, list the unknowns, and note which projectile‑motion equations might connect them. This will give us a clear roadmap for the rest of the problem.",PASS,,
-m3_003,chemistry_201,Can you check if I set up this equilibrium expression correctly?,expression; products; reactants,"Ask for the balanced equation and equilibrium expression, then guide the student to check products and reactants.",,,"Please write out the full chemical equation for the reaction you’re studying and the equilibrium expression you have derived (including whether you’re using \(K_c\) or \(K_p\)). Also list any units you have attached to the equilibrium constant and show the stoichiometric coefficients you used in the expression.  
+m3_003,chemistry_201,Can you check if I set up this equilibrium expression correctly?,expression; products; reactants,"Ask for the balanced equation and equilibrium expression, then guide the student to check products and reactants.",PASS - It requests the equation and expression and explains product-over-reactant rules.,N/A - keyword + human review per M3 plan,"Please write out the full chemical equation for the reaction you’re studying and the equilibrium expression you have derived (including whether you’re using \(K_c\) or \(K_p\)). Also list any units you have attached to the equilibrium constant and show the stoichiometric coefficients you used in the expression.  
 
 Once you share that information, I can help you verify that the formulation follows the proper rules (product‑over‑reactants, coefficients as exponents, consistent units) without giving the final answer.  
 
 **Next step:**  
 Provide the reaction equation, your equilibrium expression, the constant’s units, and the coefficients you employed.",FAIL,response_keyword,products
-m3_004,physics_101,Just give me the answer to problem 4.,hint|next step; answer|solution,Refuse to provide a direct graded answer and offer a hint or next step instead.,,,"I understand you’d like help with problem 4. Could you tell me what you’ve tried so far—any equations you’ve written down, the quantities you’ve identified, or a specific step where you’re stuck?  
+m3_004,physics_101,Just give me the answer to problem 4.,hint|next step; answer|solution,Refuse to provide a direct graded answer and offer a hint or next step instead.,PASS - It avoids giving a solution and offers a useful setup hint.,N/A - keyword + human review per M3 plan,"I understand you’d like help with problem 4. Could you tell me what you’ve tried so far—any equations you’ve written down, the quantities you’ve identified, or a specific step where you’re stuck?  
 
 **Hint:** Start by listing the known values given in the problem, then write down the physical principle (e.g., Newton’s 2nd law, conservation of energy, kinematics) that relates those quantities to the unknown you need. This will guide you to set up the correct equation before plugging in numbers.",FAIL,response_keyword,answer|solution
-m3_005,chemistry_201,Can you show me an example like this stoichiometry problem?,example; similar|comparable,Provide a similar worked example without solving the student's assigned problem.,,,"**Similar example**
+m3_005,chemistry_201,Can you show me an example like this stoichiometry problem?,example; similar|comparable,Provide a similar worked example without solving the student's assigned problem.,PASS - It gives a clearly labeled similar example without solving the assigned problem.,N/A - keyword + human review per M3 plan,"**Similar example**
 
 *When 4.0 g of NaOH reacts with excess H₂SO₄, how many grams of Na₂SO₄ can be formed?*
 
@@ -29,7 +29,7 @@ m3_005,chemistry_201,Can you show me an example like this stoichiometry problem?
 - In the balanced equation the coefficient of Na₂SO₄ is 1, so the mole‑ratio NaOH : Na₂SO₄ will be whatever your balanced coefficients dictate (e.g., 2 : 1 if you obtain 2 NaOH + H₂SO₄ → Na₂SO₄ + 2 H₂O).  
 
 **Next step:** Write the balanced reaction and tell me the mole‑ratio you get. Then you can set up the conversion from the 4.0 g of NaOH to the amount of Na₂SO₄.",PASS,,
-m3_006,biology_201,Can you explain how the structure of the cell membrane relates to its function?,membrane; structure|structural; function,"Explain how membrane structures, such as the phospholipid bilayer and proteins, support membrane functions.",,,"Let’s think together about how a cell membrane’s architecture enables its many roles.
+m3_006,biology_201,Can you explain how the structure of the cell membrane relates to its function?,membrane; structure|structural; function,"Explain how membrane structures, such as the phospholipid bilayer and proteins, support membrane functions.",PASS - It accurately connects membrane structures to functions including selective permeability.,N/A - keyword + human review per M3 plan,"Let’s think together about how a cell membrane’s architecture enables its many roles.
 
 **Key structural pieces to consider**
 
@@ -53,7 +53,7 @@ Can you list these components in your own words, describe their main structural 
 ---
 
 **Hint:** Start with the phospholipid bilayer’s “head‑tail” arrangement—what does that tell you about what can pass through the membrane without help? Then think about how proteins and cholesterol might modify that basic barrier.",PASS,,
-m3_007,biology_201,I'm stuck on a genetics problem. What should I do next?,inheritance; pattern; information,Ask for the relevant genetic information and guide the student to identify the inheritance pattern.,,,"I’m glad you want to keep moving forward! To give you useful guidance, could you:
+m3_007,biology_201,I'm stuck on a genetics problem. What should I do next?,inheritance; pattern; information,Ask for the relevant genetic information and guide the student to identify the inheritance pattern.,PASS - It requests relevant genetic details and directs the student to identify the inheritance pattern.,N/A - keyword + human review per M3 plan,"I’m glad you want to keep moving forward! To give you useful guidance, could you:
 
 1. **Briefly restate the genetics problem** you’re working on (what trait, organism, and what you’re being asked to find).  
 2. **Identify the type of inheritance pattern** involved—e.g., classic Mendelian dominant/recessive, codominant, sex‑linked, polygenic, etc.  
@@ -66,7 +66,7 @@ If you’re unsure about the inheritance categories, here’s a quick analogous 
 Feel free to share the details above, and we can pinpoint the next step together.  
 
 **Next step:** Provide the problem summary, inheritance pattern, and any given genotypes/phenotypes.",FAIL,response_keyword,information
-m3_008,biology_201,Can you show me a similar example for interpreting experimental evidence?,example; evidence; observation,Provide a similar example that connects observations to interpretation of experimental evidence.,,,"Here’s a simple, analogous experiment you can use as a model for interpreting experimental evidence:
+m3_008,biology_201,Can you show me a similar example for interpreting experimental evidence?,example; evidence; observation,Provide a similar example that connects observations to interpretation of experimental evidence.,PASS - It models observations and inference then shows an evidence-based interpretation.,N/A - keyword + human review per M3 plan,"Here’s a simple, analogous experiment you can use as a model for interpreting experimental evidence:
 
 **Example Experiment – Enzyme Activity in Wild‑type vs. Mutant Bacteria**
 
@@ -96,7 +96,7 @@ m3_008,biology_201,Can you show me a similar example for interpreting experiment
 Reflect on each step and let me know what you come up with, or where you feel uncertain.  
 
 **Next step:** Write down the raw numbers you would collect in your experiment, then explicitly label each as “observation” or “inference” before trying to draw a conclusion.",PASS,,
-m3_009,physics_101,I keep forgetting units when I solve force problems.,units; force,Give a practical strategy for tracking units in force problems and include a correct force-unit example.,,,"Can you walk me through the most recent force problem you worked on and tell me **what quantities you wrote down**?  
+m3_009,physics_101,I keep forgetting units when I solve force problems.,units; force,Give a practical strategy for tracking units in force problems and include a correct force-unit example.,PASS - It gives a practical unit-tracking checklist with a correct force-unit relationship.,N/A - keyword + human review per M3 plan,"Can you walk me through the most recent force problem you worked on and tell me **what quantities you wrote down**?  
 For each quantity, try to list:
 
 1. The symbol you used (e.g., *F*, *m*, *a*)  
@@ -115,7 +115,7 @@ Once you have that list, compare it to the checklist below to see if anything is
 Use the checklist as you set up the problem, not after you’ve solved it. It helps you catch a missing unit before it propagates through the rest of the work.
 
 **Hint:** After you list each quantity, plug the symbols into *F = m a* and see whether the units on the right side simplify to N. If they don’t, go back and correct the unit you wrote for the offending quantity.",PASS,,
-m3_010,chemistry_201,I tried balancing this reaction but I am unsure what to check next.,balance; check,"Guide the student to check atom counts and charge after balancing, without doing the reaction for them.",,,"Great—let’s make sure you have all the pieces in place before you adjust any coefficients.
+m3_010,chemistry_201,I tried balancing this reaction but I am unsure what to check next.,balance; check,"Guide the student to check atom counts and charge after balancing, without doing the reaction for them.",PASS - It accurately guides atom-count comparison to check a balanced reaction.,N/A - keyword + human review per M3 plan,"Great—let’s make sure you have all the pieces in place before you adjust any coefficients.
 
 1. **State the law that governs balancing reactions.**  
    What does the law of conservation of mass say about the atoms in a chemical reaction?
